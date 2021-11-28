@@ -1,8 +1,8 @@
- import java.util.*;
- import java.util.stream.Collectors;
+import java.util.*;
+import java.util.stream.Collectors;
 
 
- public class Main {
+public class Main {
     public static void main(String[] args) {
 
         List<String> names = Arrays.asList("Jack", "Connor", "Harry", "George", "Samuel", "John");
@@ -42,6 +42,5 @@
                 .collect(Collectors.toList());
         System.out.println("Professionals: ");
         System.out.println(professionals);
-
-        }
     }
+}
